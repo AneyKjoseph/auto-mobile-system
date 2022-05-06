@@ -1,6 +1,6 @@
 package com.nissan.automobile.system.client;
 
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 
 @FeignClient("PlantClient")
 public interface PlantClient {
